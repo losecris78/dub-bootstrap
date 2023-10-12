@@ -1,0 +1,31 @@
+#mainimages{
+    width: 100vw;
+    background-color: #ccc;
+
+}
+header{
+    display:flex;
+}
+#mainimages div{
+    justify-content: center;
+    align-items: center;
+}
+ #hero {
+    display: flex;
+    justify-content: space-between;
+}
+#logo{
+    width:100%;
+    max-width: 200px;
+}
+header h1{
+align-items: center;
+}
+header h3{
+align-items: center;
+}
+@media screen and  (max-width:500px) {
+    #hero{
+        flex-direction: column;
+    }
+}

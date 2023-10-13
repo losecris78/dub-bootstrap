@@ -17,6 +17,12 @@ header{
 #logo{
     width:100%;
     max-width: 200px;
+    object-fit:scale-down;
+}
+.carousel-item img{
+    object-fit:contain;
+    width:700px;
+    height:500px;
 }
 header h1{
 align-items: center;
